@@ -14,11 +14,11 @@ public class Booking {
     Booking(){
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the name of Passenger: ");
+        System.out.print("Enter the name of Passenger: ");
         this.passengerName = sc.next();
-        System.out.println("Enter Bus No.: ");
+        System.out.print("Enter Bus No.: ");
         this.busNo = sc.nextInt();
-        System.out.println("Enter data dd-mm-yyyy: ");
+        System.out.print("Enter data dd-mm-yyyy: ");
         String dateInput = sc.next();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         try {

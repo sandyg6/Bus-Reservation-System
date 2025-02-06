@@ -9,7 +9,8 @@ public class BusDemo {
         ArrayList<Bus> buses = new ArrayList<>();
         ArrayList<Booking> bookings = new ArrayList<>();
 
-        buses.add(new Bus(1, true, 2));
+        System.out.println("Bus Details");
+        buses.add(new Bus(1, true, 1));
         buses.add(new Bus(2, false, 65));
         buses.add(new Bus(3, true, 55));
 
