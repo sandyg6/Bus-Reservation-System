@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Booking {
+
     String passengerName;
     int busNo;
     Date date;
@@ -29,6 +30,7 @@ public class Booking {
     }
 
     public boolean isAvailable(ArrayList<Booking> bookings, ArrayList<Bus> buses){
+
         int capacity = 0;
         for(Bus bus: buses){
             if(bus.getBusNo() == busNo) { //busNo -> Directly used of booking
